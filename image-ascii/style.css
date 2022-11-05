@@ -1,0 +1,40 @@
+body{
+    background-color:  #000;
+    color: #fff;
+    max-height: 100%;
+}
+
+.stream-container{
+    text-align: center;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+video{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    object-fit: contain;
+}
+#main-video-stream{
+    height: 140px;
+    width: 300px;
+}
+.video-stream{
+    text-align: center;
+    object-fit: contain;
+}
+.main-container{
+    max-height: 100vh;
+}
+.vertical-center {
+    max-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+pre{
+    object-fit: contain;
+    padding: 0px;
+}
